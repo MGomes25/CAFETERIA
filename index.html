@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Café de Mulungu</title>
+    
 </head>
 <body>
     <div class="caixa-video">
@@ -12,43 +13,42 @@
         <div class="mascara"></div>
     </div>
 
-    <header>
-        <section>
+    <header class="header-principal"> 
+        <section class="logo-nav"> 
             <a href="#">
                 <img src="./imagens/logo.png" alt="logo-cafeteria">
             </a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Avaliações</a>
+                <a href="#">Endereço</a>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="hero-section"> 
+            <div class="hero-content">
+                <h3>Aqui você desfruta do melhor café da região</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aperiam voluptatibus, nobis possimus, eos animi officia quod accusantium suscipit quis voluptate neque iste tempore odit illo! Dolorum corrupti natus enim?</p>
+                <a class="button-primary" href="#">Pague o seu agora</a>
+            </div>
         </section>
 
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Avaliações</a>
-            <a href="#">Endereço</a>
-        </nav>
-
-        
-            <section>
-                <div>
-                    <h3>Aqui você desfruta do melhor café da região</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aperiam voluptatibus, nobis possimus, eos animi officia quod accusantium suscipit quis voluptate neque iste tempore odit illo! Dolorum corrupti natus enim?</p>
-                    <a>Pague o seu agora</a>
+        <section class="about-section"> <!-- Seção "Sobre nós" -->
+            <h2><span>Sobre</span> nós</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./imagens/about-img.jpg" alt="sobre-nos">
                 </div>
-            </section>
-
-            <section>
-                <h2><span>Sobre</span> nós</h2>
-                <div>
-                    <div>
-                        <img src="./imagens/about-img.jpg" alt="sobre-nos">
-                    </div>
-                    <div>
-                        <h3>O que faz nosso café especial</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam expedita excepturi minus optio delectus id tempora dolor magnam sint quos sunt, necessitatibus dignissimos deleniti. Dolore et deleniti enim odit excepturi.</p>
-                        <a>Saiba mais</a>
-                    </div>
+                <div class="about-text">
+                    <h3>O que faz nosso café especial</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam expedita excepturi minus optio delectus id tempora dolor magnam sint quos sunt, necessitatibus dignissimos deleniti. Dolore et deleniti enim odit excepturi.</p>
+                    <a class="button-secondary" href="#">Saiba mais</a>
                 </div>
-            </section>
-        
-    </header>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
