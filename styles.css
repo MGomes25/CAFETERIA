@@ -165,14 +165,37 @@ main {
     margin-bottom: 2rem;
 }
 
-.modal{
+.modal {
     display: flex;
     flex-direction: column;
-    background-color: transparent;
+    background-color: #fff; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
     gap: 20px;
     z-index: 4;
     position: fixed;
     top: 50%;
-    left: -30%;
+    left: -50%; 
     transform: translate(-50%, -50%);
-}  
+    transition: left .4s ease;
+}
+
+.btn-fechar {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background-color: #94c426;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.btn-fechar:hover {
+    background-color: #7aa021;
+}
